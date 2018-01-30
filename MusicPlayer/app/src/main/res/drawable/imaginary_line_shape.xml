@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="line">
+    <!--以下一点很重要，不然给View设置的虚线背景不显示，千万注意！！！-->
+    <!--引用该shape背景的控件的height应该大于这里设置的width，也就是控件的android:layout_height设置的值要大于1-->
+    <stroke android:color="#80000000"
+        android:dashWidth="3dp"
+        android:width="1dp"
+        android:dashGap="3dp"/>
+</shape>
